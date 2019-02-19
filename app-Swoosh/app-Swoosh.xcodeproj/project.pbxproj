@@ -12,6 +12,7 @@
 		8D0528EF221679F7005BD7C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0528ED221679F7005BD7C0 /* Main.storyboard */; };
 		8D0528F1221679F7005BD7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0528F0221679F7005BD7C0 /* Assets.xcassets */; };
 		8D0528F4221679F7005BD7C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0528F2221679F7005BD7C0 /* LaunchScreen.storyboard */; };
+		8D4BF148221CBD2D00D13BE7 /* CutomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4BF147221CBD2D00D13BE7 /* CutomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8D0528F0221679F7005BD7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0528F3221679F7005BD7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D0528F5221679F7005BD7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4BF147221CBD2D00D13BE7 /* CutomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8D0528E8221679F7005BD7C0 /* app-Swoosh */ = {
 			isa = PBXGroup;
 			children = (
+				8D4BF146221CBCF700D13BE7 /* Views */,
 				8D0528E9221679F7005BD7C0 /* AppDelegate.swift */,
 				8D0528EB221679F7005BD7C0 /* ViewController.swift */,
 				8D0528ED221679F7005BD7C0 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				8D0528F5221679F7005BD7C0 /* Info.plist */,
 			);
 			path = "app-Swoosh";
+			sourceTree = "<group>";
+		};
+		8D4BF146221CBCF700D13BE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D4BF147221CBD2D00D13BE7 /* CutomButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0528EC221679F7005BD7C0 /* ViewController.swift in Sources */,
+				8D4BF148221CBD2D00D13BE7 /* CutomButton.swift in Sources */,
 				8D0528EA221679F7005BD7C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
